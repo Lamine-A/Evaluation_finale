@@ -8,7 +8,7 @@
 *Les fromages sont essentiellement fabriqués grâce au lait de vache, de chèvre et de brebis. 
 Le lait de vache, qui est majoritairement utilisé, est présent dans presque tous les départements français sauf dans trois départements, à savoir Hérault, Indre et Ille-et-Vilaine. Ces trois départements utilisent exclusivement le lait de chèvre qui est le deuxième type de lait le plus utilisé derrière le lait de vache.
 Le lait de brebis, qui arrive en troisième position de ce classement est aussi utilisé majoritairement dans certaines départements tels que Aveyron haut, Hautes-Pyrénées… et même exclusivement dans un seul département tel que la Haute-Corse*
----------------------------------------------------
+
 
 # Repartition par départements avec les liens wikipédia
 

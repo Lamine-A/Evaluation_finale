@@ -1,3 +1,33 @@
+# liste des peintures de Claude Monet
+
+select DISTINCT ?peinture 
+where {
+ ?peinture wdt:P170 wd:Q296.
+ }
+ 
+# Avec les labels (via le service wikibase:label) et les images associées
+
+#Tableaux de Claude Monet
+#defaultView:ImageGrid
+SELECT *
+WHERE
+{
+  ?item wdt:P31 wd:Q3305213 .
+  ?item wdt:P170 wd:Q296.
+  ?item wdt:P18 ?pic .
+}
+# # avec en option (via OPTIONAL) les collections/lieux de
+conservation
+#Lieux ou se trouvent les œuvres de Claude Monet
+#defaultView:Map
+SELECT ?label ?coord ?subj
+WHERE
+{
+   ?subj wdt:P170 wd:Q296.
+  OPTIONAL {?subj wdt:P276 ?loc .
+    ?loc wdt:P625 ?coord } .   
+   ?subj rdfs:label ?label filter (lang(?label) = "fr")
+}
 # LES GRANDES FAMILLES DE FROMAGES
 ![alt tag](https://4.bp.blogspot.com/-IQPaUaAZW5g/WHaeD_2PB_I/AAAAAAAAGHg/_ljyMGR5YRwMYqT3T8_21aj4SY-6ICPGwCLcB/s1600/fromages.jpeg)
 ### les données utilisées proviennent de la "Liste des Fromages Français"

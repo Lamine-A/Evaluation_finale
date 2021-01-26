@@ -2,7 +2,7 @@
 
 # liste des peintures de Claude Monet
 
-````sparql select DISTINCT ?peinture 
+````select DISTINCT ?peinture 
 where {
  ?peinture wdt:P170 wd:Q296.
  }````

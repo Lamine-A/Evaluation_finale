@@ -10,7 +10,7 @@ where {
  
 ````
 ### Reponse
- <iframe style="width: 50vw; height: 30vh; border: none;" src="https://query.wikidata.org/embed.html#select%20DISTINCT%20%3Fpeinture%20%0Awhere%20%7B%0A%20%3Fpeinture%20wdt%3AP170%20wd%3AQ296.%0A%20%7D%0A%20" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+ <iframe style="width: 55vw; height: 40vh; border: none;" src="https://query.wikidata.org/embed.html#select%20DISTINCT%20%3Fpeinture%20%0Awhere%20%7B%0A%20%3Fpeinture%20wdt%3AP170%20wd%3AQ296.%0A%20%7D%0A%20" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
  
 # Avec les labels (via le service wikibase:label) et les images associées
 ````sparql 
@@ -25,7 +25,7 @@ WHERE
 }
 ````
 ### Reponse
-<iframe style="width: 50vw; height: 30vh; border: none;" src="https://query.wikidata.org/embed.html#%0A%23Tableaux%20de%20Claude%20Monet%0A%23defaultView%3AImageGrid%0ASELECT%20*%0AWHERE%0A%7B%0A%20%20%3Fitem%20wdt%3AP31%20wd%3AQ3305213%20.%0A%20%20%3Fitem%20wdt%3AP170%20wd%3AQ296.%0A%20%20%3Fitem%20wdt%3AP18%20%3Fpic%20.%0A%7D%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+<iframe style="width: 55vw; height: 40vh; border: none;" src="https://query.wikidata.org/embed.html#%0A%23Tableaux%20de%20Claude%20Monet%0A%23defaultView%3AImageGrid%0ASELECT%20*%0AWHERE%0A%7B%0A%20%20%3Fitem%20wdt%3AP31%20wd%3AQ3305213%20.%0A%20%20%3Fitem%20wdt%3AP170%20wd%3AQ296.%0A%20%20%3Fitem%20wdt%3AP18%20%3Fpic%20.%0A%7D%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
 # avec en option (via OPTIONAL) les collections/lieux de conservation
 
 ````sparql 
@@ -41,7 +41,7 @@ WHERE
 }
 ````
 ### Reponse
-<iframe style="width: 50vw; height: 30vh; border: none;" src="https://query.wikidata.org/embed.html#%0A%23Lieux%20ou%20se%20trouvent%20les%20%C5%93uvres%20de%20Claude%20Monet%0A%23defaultView%3AMap%0ASELECT%20%3Flabel%20%3Fcoord%20%3Fsubj%0AWHERE%0A%7B%0A%20%20%20%3Fsubj%20wdt%3AP170%20wd%3AQ296.%0A%20%20OPTIONAL%20%7B%3Fsubj%20wdt%3AP276%20%3Floc%20.%0A%20%20%20%20%3Floc%20wdt%3AP625%20%3Fcoord%20%7D%20.%20%20%20%0A%20%20%20%3Fsubj%20rdfs%3Alabel%20%3Flabel%20filter%20(lang(%3Flabel)%20%3D%20%22fr%22)%0A%7D%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+<iframe style="width: 55vw; height: 40vh; border: none;" src="https://query.wikidata.org/embed.html#%0A%23Lieux%20ou%20se%20trouvent%20les%20%C5%93uvres%20de%20Claude%20Monet%0A%23defaultView%3AMap%0ASELECT%20%3Flabel%20%3Fcoord%20%3Fsubj%0AWHERE%0A%7B%0A%20%20%20%3Fsubj%20wdt%3AP170%20wd%3AQ296.%0A%20%20OPTIONAL%20%7B%3Fsubj%20wdt%3AP276%20%3Floc%20.%0A%20%20%20%20%3Floc%20wdt%3AP625%20%3Fcoord%20%7D%20.%20%20%20%0A%20%20%20%3Fsubj%20rdfs%3Alabel%20%3Flabel%20filter%20(lang(%3Flabel)%20%3D%20%22fr%22)%0A%7D%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
 # LES GRANDES FAMILLES DE FROMAGES
 ![alt tag](https://4.bp.blogspot.com/-IQPaUaAZW5g/WHaeD_2PB_I/AAAAAAAAGHg/_ljyMGR5YRwMYqT3T8_21aj4SY-6ICPGwCLcB/s1600/fromages.jpeg)
 ### les données utilisées proviennent de la "Liste des Fromages Français"

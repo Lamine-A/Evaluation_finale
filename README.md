@@ -21,6 +21,12 @@ The first paragraph text
 
 ### Sub paragraph <a name="subparagraph1"></a>
 This is a sub paragraph, formatted in heading 3 style
+### Sub paragraph <a name="subparagraph2"></a>
+### Sub paragraph <a name="subparagraph3"></a>
+### Sub paragraph <a name="subparagraph4"></a>
+### Sub paragraph <a name="subparagraph5"></a>
+### Sub paragraph <a name="subparagraph6"></a>
+### Sub paragraph <a name="subparagraph7"></a>
 
 ## Another paragraph <a name="paragraph2"></a>
 The second paragraph text

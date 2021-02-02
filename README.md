@@ -13,8 +13,8 @@
     2. [Fichier Json des traitements](#subparagraph2)
     
 4. [Utilistaion de wikidata pour analyser les accidents d'avions dans le monde ](#paragraph3)
-    1. [Premiere requête: les accidents d'avion dans le monde](#subparagraph1)
-    2. [Premiere requête: Carte mondiale des accidents d'avions dans le monde](#subparagraph2)
+    1. [Première requête: les accidents d'avion dans le monde](#subparagraph1)
+    2. [Deuxième requête: Carte mondiale des accidents d'avions dans le monde](#subparagraph2)
 5. [Conculsion](#paragraph4)
 
 ## Introduction <a name="Introduction"></a>
@@ -41,8 +41,20 @@ Some introduction text, formatted in heading 2 style
 ### Fichier Json des traitements <a name="subparagraph2"></a>
 
 ## Utilistaion de wikidata pour analyser les accidents d'avions dans le monde <a name="paragraph3"></a>)
-### Premiere requête: les accidents d'avion dans le monde <a name="subparagraph1"></a>
-### Premiere requête: Carte mondiale des accidents d'avions dans le monde <a name="subparagraph2"></a>
+### Première requête: les accidents d'avion dans le monde <a name="subparagraph1"></a>
+### Deuxième requête: Carte mondiale des accidents d'avions dans le monde <a name="subparagraph2"></a>
+````sparql
+#Lieux des accidents d’avions
+SELECT ?label ?coord ?place
+WHERE
+{
+   ?subj wdt:P31 wd:Q744913  .
+   ?subj wdt:P625 ?coord .
+   ?subj rdfs:label ?label filter (lang(?label) = "fr")
+}
+````
+### Résultat
+<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23Lieux%20des%20accidents%20d%E2%80%99avions%0ASELECT%20%3Flabel%20%3Fcoord%20%3Fplace%0AWHERE%0A%7B%0A%20%20%20%3Fsubj%20wdt%3AP31%20wd%3AQ744913%20%20.%0A%20%20%20%3Fsubj%20wdt%3AP625%20%3Fcoord%20.%0A%20%20%20%3Fsubj%20rdfs%3Alabel%20%3Flabel%20filter%20(lang(%3Flabel)%20%3D%20%22fr%22)%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
 
 ## Conculsion <a name="paragraph4"></a>
 

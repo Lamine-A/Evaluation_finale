@@ -49,7 +49,7 @@ Ce jeu de données sur les accidents corporels de la circulation routière versi
 Ma mission sur ce projet à été de remplacer les valeurs numeriques par leur nom d'origine.
 #### Etapes du traitement sur Openrefine
 ### Fichier Json des traitements <a name="subparagraph2"></a>
-````json [
+````json
   {
     "op": "core/mass-edit",
     "engineConfig": {
@@ -76,7 +76,6 @@ Ma mission sur ce projet à été de remplacer les valeurs numeriques par leur n
       "facets": [],
       "mode": "row-based"
     }
-    ]
    ````
   
 

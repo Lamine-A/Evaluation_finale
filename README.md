@@ -13,9 +13,9 @@
     2. [Fichier Json des traitements](#subparagraph2)
     
 4. [Utilistaion de wikidata pour analyser les accidents d'avions dans le monde ](#paragraph3)
-    1. [Première requête: les accidents d'avion dans le monde](#subparagraph1)
-    2. [Deuxième requête: Carte mondiale des accidents d'avions dans le monde](#subparagraph2)
-5. [Conculsion](#paragraph4)
+    1. [Requête: les accidents d'avion dans le monde](#subparagraph1)
+   
+
 
 ## Introduction <a name="Introduction"></a>
 J’ai choisi de n’utiliser que les données de 2012 et 2017 des accidents corporels de la circulation en France, afin de percevoir l’évolution du nombre d’accidents, selon des thématiques différentes, en 5 ans. Tous les graphiques seront étudiés afin de voir les différences ou ressemblances.
@@ -48,6 +48,10 @@ Réalisé par Fabrice Sznajderman et Antoine Roux dans le cadre d'un Open Data C
 Ce jeu de données sur les accidents corporels de la circulation routière version 2019 est produit par la plateforme ouverte des données publiques françaises. il est composé d'un fichier CSV, dont voici le lien [Bases de données annuelles des accidents corporels de la circulation routière - 2019](https://www.data.gouv.fr/fr/datasets/r/e22ba475-45a3-46ac-a0f7-9ca9ed1e283a) et un fichier pdf comme legénde [Descriptif des variables pour le fichier des accidents, données agrégées de 2005 à 2010](https://www.data.gouv.fr/fr/datasets/r/36496bab-a042-47bf-b08b-3c7467f2bddf). Le jeu des données est presque entierement numérique les dates, les departements , et tous les autres chanps. Cette configuration complique la lecture des visualisations.
 Ma mission sur ce projet à été de remplacer les valeurs numeriques par leur nom d'origine.
 #### Etapes du traitement sur Openrefine
+> la premiere étape consiste à un traitement automtique avec l'utilisation de wikidata. Dans openrefine on a reconcilier les valueurs numeriques mois avec le type item Q5151 dui reprensente l'unité de temps non régulière et qui sépare l'année calendaire dans wikidata
+> Même procédé pour le département en utilisant le type item Q6465.
+Les champs nom réconcilier ont été fait manuellement
+
 ### Fichier Json des traitements <a name="subparagraph2"></a>
 ````json
   {
@@ -79,7 +83,7 @@ Ma mission sur ce projet à été de remplacer les valeurs numeriques par leur n
    ````
   
 
-### [Aller sur Witransfer pour visionner le jeu de données initial et le resultat de la transformation sur Openrefine](https://wetransfer.com/downloads/8737ae58972ba9f002c2e9cacbc9545920210202090038/aa2011b1c27f0634be35931d5e8e611720210202090038/92fb72)
+### [Aller sur Witransfer pour visionner la totalité du fichier JSON de traitement et le resultat de la transformation sur Openrefine](https://wetransfer.com/downloads/8737ae58972ba9f002c2e9cacbc9545920210202090038/aa2011b1c27f0634be35931d5e8e611720210202090038/92fb72)
 
 ## Utilistaion de wikidata pour analyser les accidents d'avions dans le monde <a name="paragraph3"></a>)
 ### Requête: les accidents d'avion dans le monde <a name="subparagraph1"></a>
@@ -97,6 +101,6 @@ WHERE
 ### Résultat
 <iframe style="width: 55vw; height: 40vh; border: none;" src="https://query.wikidata.org/embed.html#%23Lieux%20des%20accidents%20d%E2%80%99avions%0ASELECT%20%3Flabel%20%3Fcoord%20%3Fplace%0AWHERE%0A%7B%0A%20%20%20%3Fsubj%20wdt%3AP31%20wd%3AQ744913%20%20.%0A%20%20%20%3Fsubj%20wdt%3AP625%20%3Fcoord%20.%0A%20%20%20%3Fsubj%20rdfs%3Alabel%20%3Flabel%20filter%20(lang(%3Flabel)%20%3D%20%22fr%22)%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
 
-## Conculsion <a name="paragraph4"></a>
+
 
 

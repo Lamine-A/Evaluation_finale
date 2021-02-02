@@ -45,7 +45,9 @@ Réalisé par Fabrice Sznajderman et Antoine Roux dans le cadre d'un Open Data C
 
 ## Traitement du jeu donnée des accidents sur l'année 2019 <a name="paragraph2"></a>
 ### Présentation <a name="subparagraph1"></a>
-[Bases de données annuelles des accidents corporels de la circulation routière - 2019](https://www.data.gouv.fr/fr/datasets/r/e22ba475-45a3-46ac-a0f7-9ca9ed1e283a)
+Ce jeu de données sur les accidents corporels de la circulation routière version 2019 est produit par la plateforme ouverte des données publiques françaises. il est composé d'un fichier CSV, dont voici le lien [Bases de données annuelles des accidents corporels de la circulation routière - 2019](https://www.data.gouv.fr/fr/datasets/r/e22ba475-45a3-46ac-a0f7-9ca9ed1e283a) et un fichier pdf comme legénde [Descriptif des variables pour le fichier des accidents, données agrégées de 2005 à 2010](https://www.data.gouv.fr/fr/datasets/r/36496bab-a042-47bf-b08b-3c7467f2bddf). Le jeu des données est presque entierement numérique les dates, les departements , et tous les autres chanps. Cette configuration complique la lecture des visualisations.
+Ma mission sur ce projet à été de remplacer les valeurs numeriques par leur nom d'origine.
+#### Etapes du traitement sur Openrefine
 ### Fichier Json des traitements <a name="subparagraph2"></a>
 
 [Aller sur Witransfer pour visionner le jeu de données initial et le resultat de la transformation sur Openrefine](https://wetransfer.com/downloads/8737ae58972ba9f002c2e9cacbc9545920210202090038/aa2011b1c27f0634be35931d5e8e611720210202090038/92fb72)

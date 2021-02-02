@@ -10,11 +10,11 @@
     4. [Comparaison des victimes en fonction de leur sexe](#subparagraph5)
     5. [Carte](#subparagraph6)
 3. [Traitement du jeu des données des accidents sur l'année 2019 sur Openrefine](#paragraph2)
-    1. [Présentaion](#subparagraph1)
-    2. [Fichier Json des traitements](#subparagraph2)
+    6. [Présentaion](#subparagraph1)
+    7. [Fichier Json des traitements](#subparagraph2)
     
 4. [Utilistaion de wikidata pour analyser les accidents d'avions dans le monde ](#paragraph3)
-    1. [Requête: les accidents d'avion dans le monde](#subparagraph1)
+    8. [Requête: les accidents d'avion dans le monde](#subparagraph1)
    
 
 

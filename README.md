@@ -96,6 +96,7 @@ les autres champs définis par des légendes, comme par exemple la variable "ple
 ## Utilistaion de wikidata pour analyser les accidents d'avions dans le monde <a name="paragraph3"></a>)
 ### Requête: les accidents d'avion dans le monde <a name="subparagraph1"></a>
 
+
 ````sparql
 #Lieux des accidents d’avions
 SELECT ?label ?coord ?place

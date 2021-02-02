@@ -41,8 +41,6 @@ La colonne "Accidents" donne le nombre d'accidents sur le territoire français. 
 ### Repartition des victimes entre hommes et femmes  <a name="subparagraph5"></a>
 <iframe src="https://data.opendatasoft.com/explore/embed/dataset/accidents-corporels-de-la-circulation-millesime@public/analyze/?disjunctive.com_name&disjunctive.dep_code&disjunctive.dep_name&disjunctive.epci_code&disjunctive.epci_name&disjunctive.reg_code&disjunctive.reg_name&disjunctive.com_code&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQ09VTlQiLCJ5QXhpcyI6ImxhcnJvdXQiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiJyYW5nZS1jdXN0b20ifV0sInhBeGlzIjoiZ3JhdiIsIm1heHBvaW50cyI6IiIsInRpbWVzY2FsZSI6IiIsInNvcnQiOiIiLCJjb25maWciOnsiZGF0YXNldCI6ImFjY2lkZW50cy1jb3Jwb3JlbHMtZGUtbGEtY2lyY3VsYXRpb24tbWlsbGVzaW1lQHB1YmxpYyIsIm9wdGlvbnMiOnsiZGlzanVuY3RpdmUuY29tX25hbWUiOnRydWUsImRpc2p1bmN0aXZlLmRlcF9jb2RlIjp0cnVlLCJkaXNqdW5jdGl2ZS5kZXBfbmFtZSI6dHJ1ZSwiZGlzanVuY3RpdmUuZXBjaV9jb2RlIjp0cnVlLCJkaXNqdW5jdGl2ZS5lcGNpX25hbWUiOnRydWUsImRpc2p1bmN0aXZlLnJlZ19jb2RlIjp0cnVlLCJkaXNqdW5jdGl2ZS5yZWdfbmFtZSI6dHJ1ZSwiZGlzanVuY3RpdmUuY29tX2NvZGUiOnRydWV9fSwic2VyaWVzQnJlYWtkb3duIjoic2V4ZSJ9XSwiZGlzcGxheUxlZ2VuZCI6dHJ1ZSwiYWxpZ25Nb250aCI6dHJ1ZSwidGltZXNjYWxlIjoiIn0%3D&static=false&datasetcard=false" width="800" height="600" frameborder="0"></iframe>
 On note ici que dans les trois cas de figure, la majorité des victimes sont des hommes. Les hommmes prennent plus de risque qu volant.
-
-Réalisé par Fabrice Sznajderman et Antoine Roux dans le cadre d'un Open Data Camp organisé par Etalab.
 ### Carte <a name="subparagraph6"></a>
 <iframe frameborder="0" width="860" height="700" src="https://data.opendatasoft.com/map/embed/accidents/?&static=true&scrollWheelZoom=true"></iframe>
 
@@ -52,12 +50,12 @@ Ce jeu de données sur les accidents corporels de la circulation routière versi
 Ma mission sur ce projet à été de remplacer les valeurs numeriques par leur nom d'origine.
 #### Etapes du traitement sur Openrefine
 ##### le format date numerique en lettre
-> la premiere étape consiste à un traitement automtique avec l'utilisation de wikidata. Dans openrefine on a reconcilier les valueurs numeriques mois avec le type item Q5151 qui reprensente l'unité de temps non régulière et qui sépare l'année calendaire dans wikidata
+>> la premiere étape consiste à un traitement automtique avec l'utilisation de wikidata. Dans openrefine on a reconcilier les valueurs numeriques mois avec le type item Q5151 qui reprensente l'unité de temps non régulière et qui sépare l'année calendaire dans wikidata
 ##### le code departement en nom du département 
-Même procédé pour le département en utilisant le type item Q6465.
+>>Même procédé pour le département en utilisant le type item Q6465.
 Les champs nom réconcilier ont été fait manuellement
 #####  les autres champs
-les autres champs défini par des légendes, comme par exemple la varianle "plein jour" representée dans le fichier csv par la valeur numérique 1 on été fait manuellement. la commande facette/facette_textuelle permet de les isoler, et openrefine permet d'appliquer une modification isolée sur tous les champs identiques dans le fichier.
+>> les autres champs défini par des légendes, comme par exemple la varianle "plein jour" representée dans le fichier csv par la valeur numérique 1 on été fait manuellement. la commande facette/facette_textuelle permet de les isoler, et openrefine permet d'appliquer une modification isolée sur tous les champs identiques dans le fichier.
 
 
 

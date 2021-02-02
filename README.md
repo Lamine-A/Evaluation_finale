@@ -54,9 +54,9 @@ Ma mission sur ce projet à été de remplacer les valeurs numeriques par leur n
 la premiere étape consiste à un traitement automtique avec l'utilisation de wikidata. Dans openrefine on a reconcilier les valueurs numeriques mois avec le type item Q5151 qui reprensente l'unité de temps non régulière et qui sépare l'année calendaire dans wikidata
 ##### le code departement en nom du département 
 Même procédé pour le département en utilisant le type item Q6465.
-Les champs nom réconcilier ont été fait manuellement
+Les champs non réconciliés automatiquement ont été fait manuellement
 #####  les autres champs
-les autres champs défini par des légendes, comme par exemple la varianle "plein jour" representée dans le fichier csv par la valeur numérique 1 on été fait manuellement. la commande facette/facette_textuelle permet de les isoler, et openrefine permet d'appliquer une modification isolée sur tous les champs identiques dans le fichier.
+les autres champs définis par des légendes, comme par exemple la variable "plein jour" representée dans le fichier csv par la valeur numérique 1 on été fait manuellement. la commande facette/facette_textuelle permet de les isoler, et openrefine permet d'appliquer une modification isolée d'une ligne sur tous les champs identiques dans le fichier.
 
 
 

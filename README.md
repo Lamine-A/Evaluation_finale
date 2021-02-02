@@ -54,7 +54,7 @@ WHERE
 }
 ````
 ### Résultat
-<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23Lieux%20des%20accidents%20d%E2%80%99avions%0ASELECT%20%3Flabel%20%3Fcoord%20%3Fplace%0AWHERE%0A%7B%0A%20%20%20%3Fsubj%20wdt%3AP31%20wd%3AQ744913%20%20.%0A%20%20%20%3Fsubj%20wdt%3AP625%20%3Fcoord%20.%0A%20%20%20%3Fsubj%20rdfs%3Alabel%20%3Flabel%20filter%20(lang(%3Flabel)%20%3D%20%22fr%22)%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+<iframe style="width: 60vw; height: 30vh; border: none;" src="https://query.wikidata.org/embed.html#%23Lieux%20des%20accidents%20d%E2%80%99avions%0ASELECT%20%3Flabel%20%3Fcoord%20%3Fplace%0AWHERE%0A%7B%0A%20%20%20%3Fsubj%20wdt%3AP31%20wd%3AQ744913%20%20.%0A%20%20%20%3Fsubj%20wdt%3AP625%20%3Fcoord%20.%0A%20%20%20%3Fsubj%20rdfs%3Alabel%20%3Flabel%20filter%20(lang(%3Flabel)%20%3D%20%22fr%22)%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
 
 ## Conculsion <a name="paragraph4"></a>
 

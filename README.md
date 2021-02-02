@@ -32,29 +32,8 @@ Some introduction text, formatted in heading 2 style
 <iframe frameborder="0" width="860" height="700" src="https://data.opendatasoft.com/map/embed/accidents/?&static=true&scrollWheelZoom=true"></iframe>
 
 ## Another paragraph <a name="paragraph2"></a>
-<html>
-<article id="resource-e22ba475-45a3-46ac-a0f7-9ca9ed1e283a" class="card resource-card "
-    @click.prevent="showResource('e22ba475-45a3-46ac-a0f7-9ca9ed1e283a', false)">
-
-    
-
-    <div class="card-body">
-        <h4 class="ellipsis">caracteristiques-2019.csv</h4>
-        <div class="resource-card-description"></div>
-    </div>
-        <div class="resource-card-actions btn-toolbar">
-            
-            
-            <a @click.stop href="https://www.data.gouv.fr/fr/datasets/r/e22ba475-45a3-46ac-a0f7-9ca9ed1e283a" class="btn btn-sm btn-primary" download>Télécharger</a>
-            
-            <a @click.stop class="btn btn-sm btn-default" v-tooltip title="Copier le lien dans le presse-papiers" v-clipboard="https://www.data.gouv.fr/fr/datasets/r/e22ba475-45a3-46ac-a0f7-9ca9ed1e283a">
-                <span class="fa fa-clipboard"></span>
-            </a>
-            
-        </div>
-    </footer>
-</article>
-</html>
+<div data-udata-dataset="53698f4ca3a729239d2036df"></div>
+<script data-udata="https://www.data.gouv.fr/" src="https://static.data.gouv.fr/static/oembed.js" async defer></script>
 ## Another paragraph <a name="paragraph3"></a>)
 66
 66

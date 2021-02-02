@@ -48,12 +48,15 @@ Réalisé par Fabrice Sznajderman et Antoine Roux dans le cadre d'un Open Data C
 Ce jeu de données sur les accidents corporels de la circulation routière version 2019 est produit par la plateforme ouverte des données publiques françaises. il est composé d'un fichier CSV, dont voici le lien [Bases de données annuelles des accidents corporels de la circulation routière - 2019](https://www.data.gouv.fr/fr/datasets/r/e22ba475-45a3-46ac-a0f7-9ca9ed1e283a) et un fichier pdf comme legénde [Descriptif des variables pour le fichier des accidents, données agrégées de 2005 à 2010](https://www.data.gouv.fr/fr/datasets/r/36496bab-a042-47bf-b08b-3c7467f2bddf). Le jeu des données est presque entierement numérique les dates, les departements , et tous les autres chanps. Cette configuration complique la lecture des visualisations.
 Ma mission sur ce projet à été de remplacer les valeurs numeriques par leur nom d'origine.
 #### Etapes du traitement sur Openrefine
+##### le format date numerique en lettre
 > la premiere étape consiste à un traitement automtique avec l'utilisation de wikidata. Dans openrefine on a reconcilier les valueurs numeriques mois avec le type item Q5151 qui reprensente l'unité de temps non régulière et qui sépare l'année calendaire dans wikidata
-#### 
-> Même procédé pour le département en utilisant le type item Q6465.
+##### le code departement en nom du département 
+Même procédé pour le département en utilisant le type item Q6465.
 Les champs nom réconcilier ont été fait manuellement
-#### 
-> les autres champs défini par des légendes, comme par exemple la varianle "plein jour" representée dans le fichier csv par la valeur numérique 1 on été fait manuellement. la commande facette/facette_textuelle permet de les isoler, et openrefine permet d'appliquer une modification isolée sur tous les champs identiques dans le fichier.
+#####  les autres champs
+les autres champs défini par des légendes, comme par exemple la varianle "plein jour" representée dans le fichier csv par la valeur numérique 1 on été fait manuellement. la commande facette/facette_textuelle permet de les isoler, et openrefine permet d'appliquer une modification isolée sur tous les champs identiques dans le fichier.
+
+
 
 ### Fichier Json des traitements <a name="subparagraph2"></a>
 ````json

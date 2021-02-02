@@ -49,8 +49,7 @@ Ce jeu de données sur les accidents corporels de la circulation routière versi
 Ma mission sur ce projet à été de remplacer les valeurs numeriques par leur nom d'origine.
 #### Etapes du traitement sur Openrefine
 ### Fichier Json des traitements <a name="subparagraph2"></a>
-````JSON
-[
+```` json [
   {
     "op": "core/mass-edit",
     "engineConfig": {
@@ -78,13 +77,14 @@ Ma mission sur ce projet à été de remplacer les valeurs numeriques par leur n
       "mode": "row-based"
     }
     ]
-    ````
+   ````
+  
 
-[Aller sur Witransfer pour visionner le jeu de données initial et le resultat de la transformation sur Openrefine](https://wetransfer.com/downloads/8737ae58972ba9f002c2e9cacbc9545920210202090038/aa2011b1c27f0634be35931d5e8e611720210202090038/92fb72)
+### [Aller sur Witransfer pour visionner le jeu de données initial et le resultat de la transformation sur Openrefine](https://wetransfer.com/downloads/8737ae58972ba9f002c2e9cacbc9545920210202090038/aa2011b1c27f0634be35931d5e8e611720210202090038/92fb72)
 
 ## Utilistaion de wikidata pour analyser les accidents d'avions dans le monde <a name="paragraph3"></a>)
-### Première requête: les accidents d'avion dans le monde <a name="subparagraph1"></a>
-### Deuxième requête: Carte mondiale des accidents d'avions dans le monde <a name="subparagraph2"></a>
+### Requête: les accidents d'avion dans le monde <a name="subparagraph1"></a>
+
 ````sparql
 #Lieux des accidents d’avions
 SELECT ?label ?coord ?place

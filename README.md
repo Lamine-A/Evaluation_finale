@@ -6,7 +6,7 @@
     1. [Représentation des la gravité des accidents par année](#subparagraph1)
     2. [Repartition](#subparagraph2)
     3. [localisation la plus meurtriere](#subparagraph4)
-    4. [eclairage gravité](#subparagraph5)
+    4. [Comparaison des victimes en fonction de leur sexe](#subparagraph5)
     5. [Carte](#subparagraph6)
 3. [Another paragraph](#paragraph2)
 4. [Another paragraph](#paragraph3)
@@ -24,15 +24,37 @@ Some introduction text, formatted in heading 2 style
 <iframe src="https://data.opendatasoft.com/explore/embed/dataset/accidents-corporels-de-la-circulation-millesime@public/analyze/?disjunctive.com_name&disjunctive.dep_code&disjunctive.dep_name&disjunctive.epci_code&disjunctive.epci_name&disjunctive.reg_code&disjunctive.reg_name&disjunctive.com_code&location=3,18.51908,-3.0018&basemap=jawg.streets&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJwaWUiLCJmdW5jIjoiQ09VTlQiLCJ5QXhpcyI6ImxhcnJvdXQiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiJyYW5nZS1jdXN0b20iLCJwb3NpdGlvbiI6ImNlbnRlciJ9XSwieEF4aXMiOiJncmF2IiwibWF4cG9pbnRzIjoxMDAsInRpbWVzY2FsZSI6IiIsInNvcnQiOiJzZXJpZTEtMSIsImNvbmZpZyI6eyJkYXRhc2V0IjoiYWNjaWRlbnRzLWNvcnBvcmVscy1kZS1sYS1jaXJjdWxhdGlvbi1taWxsZXNpbWVAcHVibGljIiwib3B0aW9ucyI6eyJkaXNqdW5jdGl2ZS5jb21fbmFtZSI6dHJ1ZSwiZGlzanVuY3RpdmUuZGVwX2NvZGUiOnRydWUsImRpc2p1bmN0aXZlLmRlcF9uYW1lIjp0cnVlLCJkaXNqdW5jdGl2ZS5lcGNpX2NvZGUiOnRydWUsImRpc2p1bmN0aXZlLmVwY2lfbmFtZSI6dHJ1ZSwiZGlzanVuY3RpdmUucmVnX2NvZGUiOnRydWUsImRpc2p1bmN0aXZlLnJlZ19uYW1lIjp0cnVlLCJkaXNqdW5jdGl2ZS5jb21fY29kZSI6dHJ1ZX19LCJzZXJpZXNCcmVha2Rvd24iOiIiLCJzZXJpZXNCcmVha2Rvd25UaW1lc2NhbGUiOiIifV0sImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWUsInRpbWVzY2FsZSI6IiJ9&static=false&datasetcard=false" width="860" height="500" frameborder="10"></iframe>
 ### localisation la plus meurtriere <a name="subparagraph3"></a>
 <iframe src="https://data.opendatasoft.com/explore/embed/dataset/accidents-corporels-de-la-circulation-millesime@public/analyze/?disjunctive.com_name&disjunctive.dep_code&disjunctive.dep_name&disjunctive.epci_code&disjunctive.epci_name&disjunctive.reg_code&disjunctive.reg_name&disjunctive.com_code&location=3,18.51908,-3.0018&basemap=jawg.streets&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQ09VTlQiLCJ5QXhpcyI6ImxhcnJvdXQiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiJyYW5nZS1jdXN0b20iLCJwb3NpdGlvbiI6ImNlbnRlciJ9XSwieEF4aXMiOiJhZ2ciLCJtYXhwb2ludHMiOjIwMCwidGltZXNjYWxlIjoiIiwic29ydCI6IiIsImNvbmZpZyI6eyJkYXRhc2V0IjoiYWNjaWRlbnRzLWNvcnBvcmVscy1kZS1sYS1jaXJjdWxhdGlvbi1taWxsZXNpbWVAcHVibGljIiwib3B0aW9ucyI6eyJkaXNqdW5jdGl2ZS5jb21fbmFtZSI6dHJ1ZSwiZGlzanVuY3RpdmUuZGVwX2NvZGUiOnRydWUsImRpc2p1bmN0aXZlLmRlcF9uYW1lIjp0cnVlLCJkaXNqdW5jdGl2ZS5lcGNpX2NvZGUiOnRydWUsImRpc2p1bmN0aXZlLmVwY2lfbmFtZSI6dHJ1ZSwiZGlzanVuY3RpdmUucmVnX2NvZGUiOnRydWUsImRpc2p1bmN0aXZlLnJlZ19uYW1lIjp0cnVlLCJkaXNqdW5jdGl2ZS5jb21fY29kZSI6dHJ1ZX19LCJzZXJpZXNCcmVha2Rvd24iOiJncmF2Iiwic2VyaWVzQnJlYWtkb3duVGltZXNjYWxlIjoiIn1dLCJkaXNwbGF5TGVnZW5kIjp0cnVlLCJhbGlnbk1vbnRoIjp0cnVlLCJ0aW1lc2NhbGUiOiIifQ%3D%3D&static=false&datasetcard=false" width="860" height="500" frameborder="10"></iframe>
-### eclairage gravité <a name="subparagraph4"></a>
+### Comparaison des victimes en fonction de leur sexe <a name="subparagraph4"></a>
 <iframe src="https://data.opendatasoft.com/explore/embed/dataset/accidents-corporels-de-la-circulation-millesime@public/analyze/?disjunctive.com_name&disjunctive.dep_code&disjunctive.dep_name&disjunctive.epci_code&disjunctive.epci_name&disjunctive.reg_code&disjunctive.reg_name&disjunctive.com_code&location=3,18.51908,-3.0018&basemap=jawg.streets&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQ09VTlQiLCJ5QXhpcyI6ImxhcnJvdXQiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiJyYW5nZS1jdXN0b20iLCJwb3NpdGlvbiI6ImNlbnRlciJ9XSwieEF4aXMiOiJncmF2IiwibWF4cG9pbnRzIjoyMDAsInRpbWVzY2FsZSI6IiIsInNvcnQiOiIiLCJjb25maWciOnsiZGF0YXNldCI6ImFjY2lkZW50cy1jb3Jwb3JlbHMtZGUtbGEtY2lyY3VsYXRpb24tbWlsbGVzaW1lQHB1YmxpYyIsIm9wdGlvbnMiOnsiZGlzanVuY3RpdmUuY29tX25hbWUiOnRydWUsImRpc2p1bmN0aXZlLmRlcF9jb2RlIjp0cnVlLCJkaXNqdW5jdGl2ZS5kZXBfbmFtZSI6dHJ1ZSwiZGlzanVuY3RpdmUuZXBjaV9jb2RlIjp0cnVlLCJkaXNqdW5jdGl2ZS5lcGNpX25hbWUiOnRydWUsImRpc2p1bmN0aXZlLnJlZ19jb2RlIjp0cnVlLCJkaXNqdW5jdGl2ZS5yZWdfbmFtZSI6dHJ1ZSwiZGlzanVuY3RpdmUuY29tX2NvZGUiOnRydWV9fSwic2VyaWVzQnJlYWtkb3duIjoibHVtIiwic2VyaWVzQnJlYWtkb3duVGltZXNjYWxlIjoiIn1dLCJkaXNwbGF5TGVnZW5kIjp0cnVlLCJhbGlnbk1vbnRoIjp0cnVlLCJ0aW1lc2NhbGUiOiIifQ%3D%3D&static=false&datasetcard=false" width="860" height="500" frameborder="10"></iframe> 
 ### cause eclairage <a name="subparagraph5"></a>
-<iframe src="https://data.opendatasoft.com/chart/embed/?dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7ImFsaWduTW9udGgiOnRydWUsInR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiU1VNIiwieUF4aXMiOiJsYXJyb3V0Iiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWUsImNvbG9yIjoicmFuZ2UtQWNjZW50In1dLCJ4QXhpcyI6ImNvbCIsIm1heHBvaW50cyI6MjAwLCJ0aW1lc2NhbGUiOiIiLCJzb3J0IjoiIiwiY29uZmlnIjp7ImRhdGFzZXQiOiJhY2NpZGVudHMtY29ycG9yZWxzLWRlLWxhLWNpcmN1bGF0aW9uLW1pbGxlc2ltZUBwdWJsaWMiLCJvcHRpb25zIjp7ImRpc2p1bmN0aXZlLmNvbV9uYW1lIjp0cnVlLCJkaXNqdW5jdGl2ZS5kZXBfY29kZSI6dHJ1ZSwiZGlzanVuY3RpdmUuZGVwX25hbWUiOnRydWUsImRpc2p1bmN0aXZlLmVwY2lfY29kZSI6dHJ1ZSwiZGlzanVuY3RpdmUuZXBjaV9uYW1lIjp0cnVlLCJkaXNqdW5jdGl2ZS5yZWdfY29kZSI6dHJ1ZSwiZGlzanVuY3RpdmUucmVnX25hbWUiOnRydWUsImRpc2p1bmN0aXZlLmNvbV9jb2RlIjp0cnVlLCJ0aW1lem9uZSI6IkV1cm9wZS9CZXJsaW4ifX0sInNlcmllc0JyZWFrZG93biI6ImdyYXYifV0sImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWUsInRpbWVzY2FsZSI6IiJ9&static=false&datasetcard=false" width="860" height="500" frameborder="10"></iframe>
+<iframe src="https://data.opendatasoft.com/explore/embed/dataset/accidents-corporels-de-la-circulation-millesime@public/analyze/?disjunctive.com_name&disjunctive.dep_code&disjunctive.dep_name&disjunctive.epci_code&disjunctive.epci_name&disjunctive.reg_code&disjunctive.reg_name&disjunctive.com_code&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQ09VTlQiLCJ5QXhpcyI6ImxhcnJvdXQiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiJyYW5nZS1jdXN0b20ifV0sInhBeGlzIjoiZ3JhdiIsIm1heHBvaW50cyI6IiIsInRpbWVzY2FsZSI6IiIsInNvcnQiOiIiLCJjb25maWciOnsiZGF0YXNldCI6ImFjY2lkZW50cy1jb3Jwb3JlbHMtZGUtbGEtY2lyY3VsYXRpb24tbWlsbGVzaW1lQHB1YmxpYyIsIm9wdGlvbnMiOnsiZGlzanVuY3RpdmUuY29tX25hbWUiOnRydWUsImRpc2p1bmN0aXZlLmRlcF9jb2RlIjp0cnVlLCJkaXNqdW5jdGl2ZS5kZXBfbmFtZSI6dHJ1ZSwiZGlzanVuY3RpdmUuZXBjaV9jb2RlIjp0cnVlLCJkaXNqdW5jdGl2ZS5lcGNpX25hbWUiOnRydWUsImRpc2p1bmN0aXZlLnJlZ19jb2RlIjp0cnVlLCJkaXNqdW5jdGl2ZS5yZWdfbmFtZSI6dHJ1ZSwiZGlzanVuY3RpdmUuY29tX2NvZGUiOnRydWV9fSwic2VyaWVzQnJlYWtkb3duIjoic2V4ZSJ9XSwiZGlzcGxheUxlZ2VuZCI6dHJ1ZSwiYWxpZ25Nb250aCI6dHJ1ZSwidGltZXNjYWxlIjoiIn0%3D&static=false&datasetcard=false" width="800" height="600" frameborder="0"></iframe>
 ### Carte <a name="subparagraph6"></a>
 <iframe frameborder="0" width="860" height="700" src="https://data.opendatasoft.com/map/embed/accidents/?&static=true&scrollWheelZoom=true"></iframe>
 
 ## Another paragraph <a name="paragraph2"></a>
-The second paragraph text
+<html>
+<article id="resource-e22ba475-45a3-46ac-a0f7-9ca9ed1e283a" class="card resource-card "
+    @click.prevent="showResource('e22ba475-45a3-46ac-a0f7-9ca9ed1e283a', false)">
+
+    
+
+    <div class="card-body">
+        <h4 class="ellipsis">caracteristiques-2019.csv</h4>
+        <div class="resource-card-description"></div>
+    </div>
+        <div class="resource-card-actions btn-toolbar">
+            
+            
+            <a @click.stop href="https://www.data.gouv.fr/fr/datasets/r/e22ba475-45a3-46ac-a0f7-9ca9ed1e283a" class="btn btn-sm btn-primary" download>Télécharger</a>
+            
+            <a @click.stop class="btn btn-sm btn-default" v-tooltip title="Copier le lien dans le presse-papiers" v-clipboard="https://www.data.gouv.fr/fr/datasets/r/e22ba475-45a3-46ac-a0f7-9ca9ed1e283a">
+                <span class="fa fa-clipboard"></span>
+            </a>
+            
+        </div>
+    </footer>
+</article>
+</html>
 ## Another paragraph <a name="paragraph3"></a>)
 66
 66

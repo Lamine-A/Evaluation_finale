@@ -8,8 +8,10 @@
     3. [localisation la plus meurtriere](#subparagraph4)
     4. [Comparaison des victimes en fonction de leur sexe](#subparagraph5)
     5. [Carte](#subparagraph6)
-3. [Traitement du jeu donnée des accidents sur l'année 2019](#paragraph2)
-    1. [Représentation des la gravité des accidents par année](#subparagraph1)
+3. [Traitement du jeu donnée des accidents sur l'année 2019 sur Openrefine](#paragraph2)
+    1. [Présentaion](#subparagraph1)
+    2. [Fichier Json des traitements](#subparagraph2)
+    
 4. [Another paragraph](#paragraph3)
 5. [Another paragraph](#paragraph4)
 
@@ -33,6 +35,8 @@ Some introduction text, formatted in heading 2 style
 <iframe frameborder="0" width="860" height="700" src="https://data.opendatasoft.com/map/embed/accidents/?&static=true&scrollWheelZoom=true"></iframe>
 
 ## Traitement du jeu donnée des accidents sur l'année 2019 <a name="paragraph2"></a>
+### Présentation <a name="subparagraph1"></a>
+### Fichier Json des traitements <a name="subparagraph2"></a>
 
 ## Another paragraph <a name="paragraph3"></a>)
 66

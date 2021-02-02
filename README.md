@@ -49,6 +49,36 @@ Ce jeu de données sur les accidents corporels de la circulation routière versi
 Ma mission sur ce projet à été de remplacer les valeurs numeriques par leur nom d'origine.
 #### Etapes du traitement sur Openrefine
 ### Fichier Json des traitements <a name="subparagraph2"></a>
+````JSON
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Column4",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "13 aôut 1899"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "13/08/1899"
+      }
+    ],
+    "description": "Mass edit cells in column Column4"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    }
+    ]
+    ````
 
 [Aller sur Witransfer pour visionner le jeu de données initial et le resultat de la transformation sur Openrefine](https://wetransfer.com/downloads/8737ae58972ba9f002c2e9cacbc9545920210202090038/aa2011b1c27f0634be35931d5e8e611720210202090038/92fb72)
 

@@ -5,7 +5,7 @@
 1. [Introduction](#introduction)
 2. [Jeu de données sur les "Accidents corporels de la circulation millésimé (2012/2017)"](#paragraph1)
     1. [Représentation par gravité des accidents par année](#subparagraph1)
-    2. [Repartition en fonction des la gravité](#subparagraph2)
+    2. [Repartition en fonction de la gravité](#subparagraph2)
     3. [localisation la plus meurtriere](#subparagraph4)
     4. [Comparaison des victimes en fonction de leur sexe](#subparagraph5)
     5. [Carte](#subparagraph6)

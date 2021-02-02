@@ -8,12 +8,14 @@
     3. [localisation la plus meurtriere](#subparagraph4)
     4. [Comparaison des victimes en fonction de leur sexe](#subparagraph5)
     5. [Carte](#subparagraph6)
-3. [Traitement du jeu donnée des accidents sur l'année 2019 sur Openrefine](#paragraph2)
+3. [Traitement du jeu des données des accidents sur l'année 2019 sur Openrefine](#paragraph2)
     1. [Présentaion](#subparagraph1)
     2. [Fichier Json des traitements](#subparagraph2)
     
-4. [Another paragraph](#paragraph3)
-5. [Another paragraph](#paragraph4)
+4. [Utilistaion de wikidata pour analyser les accidents d'avions dans le monde ](#paragraph3)
+    1. [Premiere requête: les accidents d'avion dans le monde](#subparagraph1)
+    2. [Premiere requête: Carte mondiale des accidents d'avions dans le monde](#subparagraph2)
+5. [Conculsion](#paragraph4)
 
 ## Introduction <a name="Introduction"></a>
 Some introduction text, formatted in heading 2 style
@@ -38,22 +40,10 @@ Some introduction text, formatted in heading 2 style
 ### Présentation <a name="subparagraph1"></a>
 ### Fichier Json des traitements <a name="subparagraph2"></a>
 
-## Another paragraph <a name="paragraph3"></a>)
-66
-66
-66
-66
-656
-6
-## [Another paragraph <a name="paragraph4"></a>
-33
-6
-6
-6
-2
-12
-## [Another paragraph <a name="paragraph5"></a>
-22
-22
-22
-22
+## Utilistaion de wikidata pour analyser les accidents d'avions dans le monde <a name="paragraph3"></a>)
+### Premiere requête: les accidents d'avion dans le monde <a name="subparagraph1"></a>
+### Premiere requête: Carte mondiale des accidents d'avions dans le monde <a name="subparagraph2"></a>
+
+## Conculsion <a name="paragraph4"></a>
+
+

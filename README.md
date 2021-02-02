@@ -32,8 +32,7 @@ Some introduction text, formatted in heading 2 style
 <iframe frameborder="0" width="860" height="700" src="https://data.opendatasoft.com/map/embed/accidents/?&static=true&scrollWheelZoom=true"></iframe>
 
 ## Another paragraph <a name="paragraph2"></a>
-<div data-udata-dataset="53698f4ca3a729239d2036df"></div>
-<script data-udata="https://www.data.gouv.fr/" src="https://static.data.gouv.fr/static/oembed.js" async defer></script>
+https://www.data.gouv.fr/fr/datasets/r/e22ba475-45a3-46ac-a0f7-9ca9ed1e283a
 ## Another paragraph <a name="paragraph3"></a>)
 66
 66

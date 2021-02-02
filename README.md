@@ -8,7 +8,8 @@
     3. [localisation la plus meurtriere](#subparagraph4)
     4. [Comparaison des victimes en fonction de leur sexe](#subparagraph5)
     5. [Carte](#subparagraph6)
-3. [Another paragraph](#paragraph2)
+3. [Traitement du jeu donnée des accidents sur l'année 2019](#paragraph2)
+    1. [Représentation des la gravité des accidents par année](#subparagraph1)
 4. [Another paragraph](#paragraph3)
 5. [Another paragraph](#paragraph4)
 
@@ -31,8 +32,8 @@ Some introduction text, formatted in heading 2 style
 ### Carte <a name="subparagraph6"></a>
 <iframe frameborder="0" width="860" height="700" src="https://data.opendatasoft.com/map/embed/accidents/?&static=true&scrollWheelZoom=true"></iframe>
 
-## Another paragraph <a name="paragraph2"></a>
-(https://www.data.gouv.fr/fr/datasets/r/e22ba475-45a3-46ac-a0f7-9ca9ed1e283a)
+## Traitement du jeu donnée des accidents sur l'année 2019 <a name="paragraph2"></a>
+
 ## Another paragraph <a name="paragraph3"></a>)
 66
 66

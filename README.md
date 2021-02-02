@@ -46,7 +46,7 @@ On note ici que dans les trois cas de figure, la majorité des victimes sont des
 <iframe frameborder="0" width="860" height="700" src="https://data.opendatasoft.com/map/embed/accidents/?&static=true&scrollWheelZoom=true"></iframe>
 
 ## Traitement du jeu de données des accidents sur l'année 2019 pour obtenir un fichier CSV similaire à la version 2012/2017 <a name="paragraph2"></a>
-### Présentation <a name="subparagraph1"></a>
+### Présentation <a name="subparagraph7"></a>
 Ce jeu de données sur les accidents corporels de la circulation routière version 2019 est produit par la plateforme ouverte des données publiques françaises. il est composé d'un fichier CSV [Bases de données annuelles des accidents corporels de la circulation routière - 2019](https://www.data.gouv.fr/fr/datasets/r/e22ba475-45a3-46ac-a0f7-9ca9ed1e283a) et un fichier pdf pour legénder les champs du fichier CSV [Descriptif des variables pour le fichier des accidents, données agrégées de 2005 à 2010](https://www.data.gouv.fr/fr/datasets/r/36496bab-a042-47bf-b08b-3c7467f2bddf). Le jeu des données est presque entierement numérique. Les variables dates, les departements , et tous les autres champs sont remplacés par une valeur numérique. Cette configuration complique la lecture des visualisations.
 Ma mission sur ce projet à été de remplacer les valeurs numeriques par leur nom d'origine afin d'avoir un fichier JSON de traitement unique à appliquer au jeu de données des années futures.
 #### Etapes du traitement sur Openrefine
@@ -60,7 +60,7 @@ les autres champs définis par des légendes, comme par exemple la variable "ple
 
 
 
-### Fichier Json des traitements <a name="subparagraph2"></a>
+### Fichier Json des traitements <a name="subparagraph8"></a>
 ````json
   {
     "op": "core/mass-edit",
@@ -93,7 +93,7 @@ les autres champs définis par des légendes, comme par exemple la variable "ple
 
 ### [Aller sur Witransfer pour visionner la totalité du fichier JSON de traitement et le resultat de la transformation sur Openrefine](https://wetransfer.com/downloads/8737ae58972ba9f002c2e9cacbc9545920210202090038/aa2011b1c27f0634be35931d5e8e611720210202090038/92fb72)
 
-## Utilistaion de wikidata pour analyser les accidents d'avions dans le monde <a name="paragraph3"></a>)
+## Utilistaion de wikidata pour analyser les accidents d'avions dans le monde <a name="paragraph9"></a>)
 ### Requête: les accidents d'avion dans le monde <a name="subparagraph1"></a>
 
 

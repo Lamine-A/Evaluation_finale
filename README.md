@@ -111,6 +111,7 @@ WHERE
 <iframe style="width: 55vw; height: 40vh; border: none;" src="https://query.wikidata.org/embed.html#%23Lieux%20des%20accidents%20d%E2%80%99avions%0ASELECT%20%3Flabel%20%3Fcoord%20%3Fplace%0AWHERE%0A%7B%0A%20%20%20%3Fsubj%20wdt%3AP31%20wd%3AQ744913%20%20.%0A%20%20%20%3Fsubj%20wdt%3AP625%20%3Fcoord%20.%0A%20%20%20%3Fsubj%20rdfs%3Alabel%20%3Flabel%20filter%20(lang(%3Flabel)%20%3D%20%22fr%22)%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
 
 
+<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23Restaurants%0ASELECT%20%3Fitem%20%3Fadresses%20%3Fouverture%20%3Ffermeture%20%3Ftel%20WHERE%0A%7B%0A%3Fitem%20wdt%3AP31%20wd%3AQ22687.%0A%3Fitem%20wdt%3AP17%20wd%3AQ142%0AOPTIONAL%20%7B%0A%3Fitem%20wdt%3AP6375%20%3Fadresses.%0A%3Fitem%20wdt%3AP8626%20%3Fouverture.%0A%3Fitem%20wdt%3AP8627%20%3Ffermeture.%0A%3Fitem%20wdt%3AP1329%20%3Ftel%20.%0A%7D%0A%20%20SERVICE%20wikibase%3Alabel%20%7Bbd%3AserviceParam%20wikibase%3Alanguage%20%22fr%22%7D%0A%7D%0A%0AORDER%20BY%20DESC%20%28%3Fadresses%29" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
 
 
 
